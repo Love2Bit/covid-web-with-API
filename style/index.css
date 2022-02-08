@@ -1,0 +1,53 @@
+/* order */
+@media only screen and (max-width: 768px) {
+    .urut-1 {
+        order: 1;
+    }
+
+    .urut-2 {
+        order: 2;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    section {
+        padding: 60px 0 80px 0;
+    }
+
+    .hero {
+        padding-top: 100px;
+    }
+}
+
+.img {
+    max-width: 500px;
+}
+
+@media only screen and (max-width: 768px) {
+    .img {
+        max-width: 300px;
+    }
+}
+
+/* Navbar */
+.nav-link {
+    color: var(--dark-gray) !important;
+}
+
+.nav-link:hover {
+    color: var(--blue) !important;
+}
+
+/* world, country */
+@media only screen and (min-width: 768px) {
+    .teks {
+        padding-top: 60px;
+    }
+}
+
+/* footer */
+.footer {
+    background-color: var(--blue);
+    color: var(--white);
+    /* padding-bottom: 5px; */
+}

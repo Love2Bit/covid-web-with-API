@@ -1,0 +1,28 @@
+* {
+    margin-bottom: 0 !important;
+    letter-spacing: .3px;
+}
+
+:root {
+    /* color */
+    --white: #fff;
+    --light-white: #f8f9fa;
+    --dark-white: #dbdbdb;
+    --blue: #396EB0;
+    --dark-gray: #393E46;
+}
+
+section {
+    height: 100vh !important;
+    padding: 150px 0;
+}
+
+span {
+    font-weight: 600;
+    color: var(--blue);
+}
+
+button:hover {
+    background-color: var(--blue) !important;
+    border: 1px solid blue !important;
+}

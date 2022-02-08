@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    letter-spacing: .3px;
+}
+
+:root {
+    /* color */
+    --white: #fff;
+    --light-white: #f8f9fa;
+    --dark-white: #dbdbdb;
+    --yellow: #FFD369;
+    --dark-gray: #393E46;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0 !important;
+}
+
+span {
+    font-weight: 600;
+    color: var(--yellow);
+}
+
+.disabled {
+    cursor: auto !important;
+}
+
+/* body */
+nav, .hero, .skills, .contact {
+    background-color: var(--light-white) !important;
+}
+
+/* Tablet & Desktop Breakpoint */
+@media only screen and (min-width: 768px) {
+    .hero, .about-me {
+        height: 100vh;
+    }
+
+    .hero {
+        padding-top: 60px;
+    }
+
+    .about-me {
+        padding-top: 150px;
+    }
+
+    .hero-img {
+        max-width: 400px;
+    }
+
+    .about-img {
+        max-width: 500px; 
+        margin-right: 100px;
+    }
+
+    .skill-img {
+        max-width: 70px;
+    }
+
+}
+
+/* Mobile Breakpoint */
+@media only screen and (max-width: 768px) {
+    .hero {
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+
+    .about-me {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .hero-img {
+        display: none;
+    }
+
+    .about-img {
+        display: none;
+    }
+
+    .skill-img {
+        max-width: 40px;
+    }
+}
+
+.nama {
+    font-size: 3.2em;
+    font-weight: 600;
+    color: var(--yellow);
+    -webkit-text-stroke: .8px var(--dark-gray);
+}
+
+/* About Me */
+.about-me, footer {
+    color: var(--light-white);
+}
+
+/* Projects */
+.projects {
+    padding: 80px 20px 100px 20px;
+}
+
+/* Contact */
+.contact {
+    padding: 50px 0 80px 0;
+}
+
+.contact-icon {
+    max-width: 5em;
+}
+
+/* Footer  */
+.footer-social {
+    color: var(--dark-white) !important;
+    transition: .5s;
+}
+
+.footer-social:hover {
+    transition: .2s;
+    color: var(--light-white) !important;
+}
+
+/* Button go up */
+#myBtn {
+    display: none; 
+    position: fixed; 
+    bottom: 20px; 
+    right: 30px; 
+    z-index: 99; 
+    border: 1px solid transparent; 
+    outline: none; 
+    background-color: var(--yellow); 
+    color: var(--dark-gray); 
+    cursor: pointer; 
+    padding: 15px; 
+    border-radius: 10px; 
+    font-size: 18px;
+    transition: all .3s;
+  }
+  
+  #myBtn:hover {
+    background-color: var(--dark-gray); 
+    color: var(--yellow);
+    border: 1px solid var(--yellow);
+    transition: all .3s;
+  }
